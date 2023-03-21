@@ -30,7 +30,7 @@
                 }
             }
 
-            if (hero.Health > 0)
+            if (hero.Health > boss.Health)
             {
                 WinnerOfTheGame(hero);
             }
